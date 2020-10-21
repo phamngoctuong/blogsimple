@@ -1,0 +1,40 @@
+.sidebar {
+	width: calc(30% - 30px);
+}
+.widget {
+	padding: 15px;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+.author-img img {
+	width:100%;
+  object-fit: cover;
+}
+.widget .title {
+	font-size: 18px;
+  text-transform: uppercase;
+  color: #414141;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.widget p {
+  padding-top: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #4A4848;
+}
+.recent-post-content {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #b9b3b3;
+}
+.recent-post-title a {
+  font-size: 16px;
+  color: #190f8f;
+  font-weight: 600;
+}
+.recent-post-title a:hover {
+	font-weight: 800;
+}

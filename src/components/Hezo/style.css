@@ -1,0 +1,19 @@
+.hezo {
+  text-align: center;
+  background-color: #fff;
+}
+.hezo h1 {
+	font-size: 80px;
+  font-weight: 700;
+}
+.main-menu {
+	text-align: left;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.main-menu a {
+	display: inline-block;
+	margin-right: 15px;
+	padding-top: 15px;
+  padding-bottom: 15px;
+}

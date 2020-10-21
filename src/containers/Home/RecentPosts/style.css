@@ -1,0 +1,70 @@
+.postImageWrapper {
+  height: 450px;
+  overflow: hidden;
+}
+.postImageWrapper img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.wrapperrecentposts {
+	width: 70%;
+}
+.recentcontent {
+	text-align: center;
+}
+.recentcontent .category {
+	text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  color: #373737;
+  font-size: 12px;
+  font-style: normal;
+  display: block;
+  margin-top: 15px;
+}
+.recentcontent h2 {
+	padding: 5px 0;
+  letter-spacing: .5px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.date .one {
+	color: #4666e6;
+}
+.date .two {
+	margin: 0 5px;
+}
+.date .three {
+	color: #8b6767;
+}
+.recentcontent p {
+	line-height: 30px;
+  text-align: left;
+  margin-top: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.recentcontent .readmore {
+	padding: 10px 30px;
+	display: inline-block;
+  border: 1px solid #c1b8b8;
+  border-radius: 15px;
+}
+.recentcontent .readmore:hover {
+	background-color: #c1b8b8;
+	color: #fff;
+}
+.wrapperrecentposts .card {
+	margin-bottom: 20px;
+}
+.featured img {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+}
